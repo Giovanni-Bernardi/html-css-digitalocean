@@ -1,0 +1,110 @@
+/* GENERAL RULES */
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.column{
+  /* Debug */
+  background-color: #FC6C26;
+  min-height: 150px;
+  margin: 20px 0;
+}
+
+/* .vertical-align{
+vertical-align: middle;
+display: inline-block;
+} */
+
+.align-center{
+  text-align: center;
+}
+
+.box{
+  padding: 0 10%;
+}
+
+.box-no-side{
+  padding: 0 10%;
+}
+
+section{
+  padding: 20px 0;
+}
+
+
+
+
+/* HEADER */
+header{
+  /* Debug */
+  /* background-color: red; */
+  min-height: 200px;
+}
+
+header>.navbar-default{
+  background-color: #fff;
+  border-radius: 0;
+  border: none;
+}
+
+header>nav a>img{
+  max-height: 100%;
+}
+
+header>nav a>i{
+  padding-left: 5px;
+}
+
+#signup{
+  border: 1px solid black;
+  padding: 5px;
+}
+
+
+
+
+
+/* background colorS */
+section.background-white{
+  background-color: white;
+  min-height: 50px;
+}
+
+section.background-grey{
+  background-color: #F3F5F9;
+  min-height: 50px;
+}
+
+section.background-blue{
+  background-color: #004AFF;
+  min-height: 50px;
+  color: white;
+}
+
+
+
+
+
+/* JUMBOTRON */
+.jumbo-acquarium{
+  /* Debug */
+  background-color: blue;
+  min-height: 550px;
+}
+
+/* Partners */
+.partners{
+  /* Debug */
+  min-height: 200px;
+}
+
+/*  FOOTER */
+footer{
+  background-color: #031C4E;
+  min-height: 400px;
+}
+
+/* BONUS: ADD CLIENT CHAT FIXED (BABY SHARK)  */

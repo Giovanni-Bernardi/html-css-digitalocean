@@ -1,0 +1,385 @@
+
+<!--
+██████╗ ██╗ ██████╗ ██╗████████╗ █████╗ ██╗          ██████╗  ██████╗███████╗ █████╗ ███╗   ██╗
+██╔══██╗██║██╔════╝ ██║╚══██╔══╝██╔══██╗██║         ██╔═══██╗██╔════╝██╔════╝██╔══██╗████╗  ██║
+██║  ██║██║██║  ███╗██║   ██║   ███████║██║         ██║   ██║██║     █████╗  ███████║██╔██╗ ██║
+██║  ██║██║██║   ██║██║   ██║   ██╔══██║██║         ██║   ██║██║     ██╔══╝  ██╔══██║██║╚██╗██║
+██████╔╝██║╚██████╔╝██║   ██║   ██║  ██║███████╗    ╚██████╔╝╚██████╗███████╗██║  ██║██║ ╚████║
+╚═════╝ ╚═╝ ╚═════╝ ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝     ╚═════╝  ╚═════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝
+-->
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Digital Ocean/title</title>
+
+  <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  <!-- link css -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+<!-- header navbar-->
+    <header class="navbar-fixed-top"> <!--site logo-->
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+          </div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<i class="fas fa-chevron-down">
+                </i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Customers</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community<i class="fas fa-chevron-down">
+                </i></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Docs</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support<i class="fas fa-chevron-down"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Login</a></li>
+              <a class="btn btn-default btn-sm" href="#" role="button">Sign Up</a>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+
+<!-- JUMBOTRON -->
+
+      <main>
+        <section class="jumbo-acquarium">
+          <div class="container-fluid">
+            <div class="box-no-side vertical-align">
+              <div class="row">
+                <div class="col-xs-12 col-md-7">
+                  <div class="column">
+
+                  </div>
+                </div>
+                <div class="col-xs-12 col-md-5">
+                  <div class="column">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sezione partners -->
+        <section class="partners background-grey">
+          <div class="container-fluid">
+            <div class="box">
+              <div class="row">
+                <div class="col-xs-6 col-md-2">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-md-2">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-md-2">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-md-2">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-md-2">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-6 col-md-2">
+                  <div class="column">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Deploy and scale  -->
+        <section class="background-white">
+          <div class="container-fluid">
+            <div class="box-no-side">
+              <div class="row">
+                <div class="col-xs-12 col-md-3 col-md-offset-1">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3 col-md-offset-1">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3">
+                  <div class="column">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- media-slider 1-->
+        <section class="background-grey align-center">
+          <div class="box">
+            <h2>Designed for Developers</h2>
+            <p>Buil more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+            <div class="media-slider">
+
+            </div>
+          </div>
+        </section>
+
+        <!-- features -->
+        <section class="background-white">
+          <div class="container-fluid">
+            <div class="box-no-side align-center">
+              <h2>The Features your business needs</h2>
+              <div class="row">
+                <div class="col-xs-12 col-md-4">
+                  <div class="column">
+                    top ico Predictable pricing
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                  <div class="column">
+                    top ico World class service
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-md-4">
+                  <div class="column">
+                    top ico Reilable platform
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- gradient table -->
+        <section class="background-blue">
+          <div class="container-fluid">
+            <div class="box-no.side">
+              <h2>Service your customers</h2>
+              <div class="row">
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+                <div class="col-xs-12 col-lg-6">
+                  <div class="column">
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- media slider 2 -->
+        <section class="background-grey">
+          <div class="container-fluid">
+            <div class="box-no-side align-center">
+              <h2>Development teams love DigitalOcaen</h2>
+              <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                  <div class="column">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Sign up row-->
+        <section class="background-blue">
+          <div class="box align-center">
+            <h2>Get started now.</h2>
+          </div>
+        </section>
+    </main>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="box">
+          <div class="row">
+            <!-- Simplefied logo and social icon -->
+            <div class="col-xs-12 col-lg-4">
+              <div class="column">
+
+              </div>
+            </div>
+
+            <!-- site link -->
+            <div class="col-xs-12 col-md-6 col-lg-2">
+              <div class="column">
+
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-2">
+              <div class="column">
+
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-2">
+              <div class="column">
+
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-md-6 col-lg-2">
+              <div class="column">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
