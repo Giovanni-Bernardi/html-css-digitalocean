@@ -30,6 +30,10 @@
   <!-- link css -->
     <link rel="stylesheet" href="css/style.css">
 
+  <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
   </head>
 
   <body>
@@ -38,91 +42,114 @@
     <header class="navbar-fixed-top"> <!--site logo-->
       <nav class="navbar navbar-default">
         <div class="container-fluid">
+          <div class="box-no-side">
 <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-          </div>
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+              </div>
 
 <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<i class="fas fa-chevron-down">
-                </i></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products<i class="fas fa-chevron-down">
+                    </i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Customers</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community<i class="fas fa-chevron-down">
+                    </i></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">One more separated link</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Pricing</a></li>
                 </ul>
-              </li>
-              <li><a href="#">Customers</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community<i class="fas fa-chevron-down">
-                </i></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">One more separated link</a></li>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Docs</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support<i class="fas fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Login</a></li>
+                  <a class="btn btn-default btn-sm" href="#" role="button">Sign Up</a>
                 </ul>
-              </li>
-              <li><a href="#">Pricing</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">Docs</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support<i class="fas fa-chevron-down"></i>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Action</a></li>
-                  <li><a href="#">Another action</a></li>
-                  <li><a href="#">Something else here</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="#">Separated link</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Login</a></li>
-              <a class="btn btn-default btn-sm" href="#" role="button">Sign Up</a>
-            </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-      </nav>
-    </header>
+              </div>
+            <div class="box-no-side"><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </header>
 
 <!-- JUMBOTRON -->
 
       <main>
         <section class="jumbo-acquarium">
           <div class="container-fluid">
-            <div class="box-no-side vertical-align">
+            <div class="box-no-side">
               <div class="row">
                 <div class="col-xs-12 col-md-7">
-                  <div class="column">
-
-                  </div>
+                  <h2 class="jumbo-title">
+                    The simplest cloud platform for developers &amp; teams
+                  </h2>
+                  <p class="jumbo-sub">
+                    Deploy, manage, and scale, cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and business, wheter you're running one virtual machine or ten thousand.
+                  </p>
                 </div>
-                <div class="col-xs-12 col-md-5">
-                  <div class="column">
 
+                <!-- form -->
+                <div class="col-xs-12 col-md-5">
+                  <div class="google align-center">
+                    <h3 class="form-title-dark">Deploy your app in seconds.</h3>
+                    <h3 class="form-title-blue">Get started now.</h3>
+                    <form class="" action="index.html" method="post">
+                      <input type="email" name="mail" value="" placeholder="Email">
+                      <input type="password" name="password" value="" placeholder="Password">
+
+                      <a href="#"  class="btn btn-primary btn-lg active"> Create your account</a>
+                      <button type="submit"  id="google" class="btn btn-primary btn-lg active" name="logging">
+                        <img src="img/google-icon.png" alt="Icona Google">
+                        Sign up with Google
+                      </button>
+                    </form>
+
+                    <p class="form-title-dark">
+                      By signing up you agree to the
+                      <a class="termsncondition" href="#">Terms of Service.</a>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+      </section>
 
         <!-- Sezione partners -->
         <section class="partners background-grey">

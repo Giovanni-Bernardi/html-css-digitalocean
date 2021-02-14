@@ -18,6 +18,10 @@ vertical-align: middle;
 display: inline-block;
 } */
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .align-center{
   text-align: center;
 }
@@ -34,10 +38,25 @@ section{
   padding: 20px 0;
 }
 
-
+/* MEDIA QUERY */
+@media all and (max-width: 991px) {
+  .box-no-side{
+    padding: 0 1%;
+  }
+}
+@media all and (max-width: 767px) {
+  .box-no-side{
+    padding: 0;
+  }
+}
 
 
 /* HEADER */
+#signup{
+  border: 1px solid black;
+  padding: 5px;
+}
+
 header{
   /* Debug */
   /* background-color: red; */
@@ -45,7 +64,7 @@ header{
 }
 
 header>.navbar-default{
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 0;
   border: none;
 }
@@ -58,18 +77,12 @@ header>nav a>i{
   padding-left: 5px;
 }
 
-#signup{
-  border: 1px solid black;
-  padding: 5px;
-}
-
-
 
 
 
 /* background colorS */
 section.background-white{
-  background-color: white;
+  background-color: #ffffff;
   min-height: 50px;
 }
 
@@ -91,8 +104,111 @@ section.background-blue{
 /* JUMBOTRON */
 .jumbo-acquarium{
   /* Debug */
-  background-color: blue;
+  /* background-color: blue; */
   min-height: 550px;
+  background-image: url("../img/jumbo.svg");
+  background-position: right 0 bottom 0;
+  background-size: cover;
+  padding: 60px 0;
+  margin-top: 50px;
+}
+
+.form-title-blue{
+  color: #006AFF;
+}
+
+.form-title-dark{
+  color: #031C4E;
+}
+
+.jumbo-acquarium .jumbo-title{
+  font-size: calc(40px + 0.5vw);
+}
+
+.jumbo-title{
+  color: white;
+}
+
+.jumbo-sub{
+  color: white;
+}
+
+/* background form */
+.google{
+  background-color: white;
+  padding: 15px 20px 30px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.google h3, .jumbo-acquarium h2{
+  font-weight: 700;
+}
+
+.google form input{
+  width: 100%;
+  min-height: 35px;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 0 0 15px;
+  border: 1px solid #cecece;
+  color: #000000;
+}
+
+/* button background form */
+.google .btn-primary.active,
+.google .btn-primary:active,
+.google .open>.dropdown-toggle.btn-primary{
+  width: 100%;
+  margin: 0 0 5px;
+  font-size: 15px;
+  font-weight: 600;
+  border-color:  dodgerblue;
+  background-color: dodgerblue;
+  overflow: hidden;
+}
+
+/* button background form HOVER */
+.google  .btn-primary.active:hover,
+.google  .btn-primary.active:focus,
+.google  .btn-primary:active:focus,
+.google  .btn-primary:active:hover{
+  background-color: blue;
+  border-color: blue;
+}
+
+/* google button */
+.google #google {
+  background-color: white;
+  border: 1px solid #cecece;
+  color: grey;
+  position: relative;
+}
+
+/* Immagine btn BS google */
+
+.google p{
+  margin-top: 10px;
+}
+
+/* link terms */
+.termsncondition{
+  text-decoration: none;
+  color: dodgerblue;
+}
+
+
+.google .termsncondition{
+  text-decoration: underline;
+}
+
+.termsncondition i{
+  vertical-align: middle;
+}
+
+#google img{
+  float: left;
+  height: 20px;
 }
 
 /* Partners */
