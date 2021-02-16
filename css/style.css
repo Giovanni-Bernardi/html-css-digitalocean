@@ -38,6 +38,9 @@ section{
   padding: 20px 0;
 }
 
+
+
+
 /* MEDIA QUERY */
 @media all and (max-width: 991px) {
   .box-no-side{
@@ -51,10 +54,71 @@ section{
 }
 
 
+
+
+/* TEXT colors */
+.blue-text{
+ color: #006AFF;
+}
+
+.blue2-text{
+ color:#031c4e;
+}
+
+.blue3-text{ /* table */
+ color:#B4C0E4;
+}
+
+.black-text{
+ color: black;
+}
+
+.grey-text{
+ color: grey;
+}
+
+.white-text{
+  color: white;
+}
+
+
+.paragrafo{
+ font-size: 16px;
+}
+
+
+
+
+/* LINKS */
+.blue-link{
+  padding-top: 20px;
+}
+
+/* background colors */
+section.background-white{
+  background-color: #ffffff;
+  min-height: 50px;
+}
+
+section.background-grey{
+  background-color: #F3F5F9;
+  min-height: 50px;
+}
+
+section.background-blue{
+  background-color: #004AFF;
+  min-height: 50px;
+  color: white;
+}
+
+
+
 /* HEADER */
 #signup{
-  border: 1px solid black;
-  padding: 5px;
+    border: 1px solid #6fabff;
+    color: #6fabff;
+    margin-top: 10px;
+  }
 }
 
 header{
@@ -80,27 +144,6 @@ header>nav a>i{
 
 
 
-/* background colorS */
-section.background-white{
-  background-color: #ffffff;
-  min-height: 50px;
-}
-
-section.background-grey{
-  background-color: #F3F5F9;
-  min-height: 50px;
-}
-
-section.background-blue{
-  background-color: #004AFF;
-  min-height: 50px;
-  color: white;
-}
-
-
-
-
-
 /* JUMBOTRON */
 .jumbo-acquarium{
   /* Debug */
@@ -122,15 +165,11 @@ section.background-blue{
 }
 
 .jumbo-acquarium .jumbo-title{
-  font-size: calc(40px + 0.5vw);
-}
-
-.jumbo-title{
-  color: white;
+  font-size: calc(50px + 0.5vw);
 }
 
 .jumbo-sub{
-  color: white;
+  font-size: 20px;
 }
 
 /* background form */
@@ -185,8 +224,7 @@ section.background-blue{
   position: relative;
 }
 
-/* Immagine btn BS google */
-
+/* google button */
 .google p{
   margin-top: 10px;
 }
@@ -196,7 +234,6 @@ section.background-blue{
   text-decoration: none;
   color: dodgerblue;
 }
-
 
 .google .termsncondition{
   text-decoration: underline;
@@ -211,11 +248,164 @@ section.background-blue{
   height: 20px;
 }
 
-/* Partners */
+/* PARTNERS */
+.partners-title{
+  font-size: 16px;
+  color: #76819C;
+}
+
+.partners-img{
+  padding: 20px 10px;
+}
+
 .partners{
   /* Debug */
   min-height: 200px;
 }
+
+
+/* DEPLOY AND SCALE */
+.deploy ul{
+  list-style-type: none;
+  border-left: 2px solid #cecece;
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+.deploy li{
+  text-align: left;
+  padding: 10px 10px;
+}
+
+.deploy li a:hover,
+.deploy li a:focus{
+  color: darkgrey;
+  text-decoration: none;
+}
+
+.slide-box{
+  width: 45%;
+}
+
+.media-slider{
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.deploy .card{
+  text-align: left;
+}
+
+/* SLIDE */
+.slide{
+  position: relative;
+}
+
+.slide img{
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.slidep{
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+
+/* img slide */
+@media all and (max-width: 767px){
+  .carousel-control{
+    display: none;
+  }
+
+#carousel-example-generic, #carousel-example-generic2{
+  padding-bottom: 70px;
+}
+
+
+section.grey li{
+  padding-right: 0;
+  }
+
+/* side arrows */
+  .carousel-indicators li{
+    width: 10px !important;
+    height: 10px !important;
+    margin: 1px !important;
+    border-radius: 10px !important;
+  }
+}
+
+.carousel-control{
+  width: 0;
+  color: #031c4e;
+  position: absolute;
+  bottom: 20%;
+}
+
+.carousel-control.left{
+  position: absolute;
+  left: -5%;
+}
+
+.carousel-control.right{
+  position: absolute;
+  left: 105%;
+}
+
+.carousel-indicators{
+  position: absolute;
+}
+
+.carousel-indicators .active{
+  background-color: #006aff;
+}
+
+.carousel-indicators li{
+  border: 1px solid #006aff;
+  background-color: #fff;
+}
+
+.carousel-example-generic h4{
+  padding-top: 20px;
+}
+
+/* GRADIENT TABLE */
+.region, .prefooter{
+  background: linear-gradient(to bottom, #0048c5 50%, #001e9a 100%);
+}
+
+/* region */
+.region table{
+  width: 100%;
+  margin: 10px 0 30px;
+}
+
+/* rows */
+.region tr {
+  border-bottom: 1px solid white;
+}
+
+.region tr:last-child {
+  border-bottom-width: 0;
+}
+
+/* column */
+.region td{
+  padding: 10px 15px;
+  text-align: left;
+}
+
+.region tr td:last-child{
+  text-align: right;
+}
+
+.region table a{
+  color: #00d5d1; /* water green */
+}
+
 
 /*  FOOTER */
 footer{
