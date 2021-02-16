@@ -74,19 +74,16 @@ section{
 }
 
 .grey-text{
- color: grey;
+ color: #A4ABBB;
 }
 
 .white-text{
   color: white;
 }
 
-
 .paragrafo{
  font-size: 16px;
 }
-
-
 
 
 /* LINKS */
@@ -106,7 +103,7 @@ section.background-grey{
 }
 
 section.background-blue{
-  background-color: #004AFF;
+  background-color: #0037B0;
   min-height: 50px;
   color: white;
 }
@@ -297,6 +294,7 @@ header>nav a>i{
   text-align: left;
 }
 
+
 /* SLIDE */
 .slide{
   position: relative;
@@ -325,7 +323,7 @@ header>nav a>i{
 }
 
 
-section.grey li{
+section.background-grey li{
   padding-right: 0;
   }
 
@@ -372,6 +370,10 @@ section.grey li{
   padding-top: 20px;
 }
 
+.slide-two{
+  min-height: 300px;
+}
+
 /* GRADIENT TABLE */
 .region, .prefooter{
   background: linear-gradient(to bottom, #0048c5 50%, #001e9a 100%);
@@ -406,11 +408,34 @@ section.grey li{
   color: #00d5d1; /* water green */
 }
 
+/* SIGN UP */
+section.signup h2{
+  padding-bottom: 50px;
+}
+
+section.signup .btn.btn-default{
+  border: none;
+  color: #227dfe;
+  margin-bottom: 20px;
+}
+
+
 
 /*  FOOTER */
 footer{
   background-color: #031C4E;
   min-height: 400px;
+  padding-top: 50px;
+}
+
+.social i{
+  font-size: 30px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+footer ul{
+  list-style-type: none;
 }
 
 /* BONUS: ADD CLIENT CHAT FIXED (BABY SHARK)  */
