@@ -13,11 +13,6 @@
   margin: 20px 0;
 }
 
-/* .vertical-align{
-vertical-align: middle;
-display: inline-block;
-} */
-
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -52,8 +47,6 @@ section{
     padding: 0;
   }
 }
-
-
 
 
 /* TEXT colors */
@@ -107,7 +100,6 @@ section.background-blue{
   min-height: 50px;
   color: white;
 }
-
 
 
 /* HEADER */
@@ -251,8 +243,11 @@ header>nav a>i{
   color: #76819C;
 }
 
-.partners-img{
-  padding: 20px 10px;
+.flex-logo-partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px 0;
 }
 
 .partners{
@@ -260,6 +255,32 @@ header>nav a>i{
   min-height: 200px;
 }
 
+.flex-partners {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 ;
+}
+
+.partners-img {
+width: 110px;
+}
+
+section.partners-img{
+  display: inline-block;
+  width: calc(100% / 7)
+}
+
+@media all and (max-width: 767px){
+  section.grey{
+    width: calc(100% / 3);
+    padding-right: 20px;
+  }
+}
+
+section.partners-img{
+  width: 100%;
+  vertical-align: middle;
+}
 
 /* DEPLOY AND SCALE */
 .deploy ul{
@@ -437,5 +458,10 @@ footer{
 footer ul{
   list-style-type: none;
 }
+
+#bs-example-navbar-collapse-1 > ul > li > a > svg {
+  margin-left: 5px;
+}
+
 
 /* BONUS: ADD CLIENT CHAT FIXED (BABY SHARK)  */
